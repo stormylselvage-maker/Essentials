@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: test.ma
-//Last modified: Wed, Oct 15, 2025 03:43:54 PM
+//Last modified: Wed, Oct 15, 2025 03:46:58 PM
 //Codeset: 1252
 requires maya "2026";
 currentUnit -l centimeter -a degree -t film;
@@ -9,7 +9,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26100)";
-fileInfo "UUID" "B0BB2B8B-4510-BB29-914E-6A8CAFFB8C3D";
+fileInfo "UUID" "A17CA27B-41F8-ED7F-46F6-F4B3A856674E";
 createNode transform -s -n "persp";
 	rename -uid "930AC184-485B-199A-53E9-3199F935A2B8";
 	setAttr ".v" no;
@@ -65,7 +65,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 1000.1;
-	setAttr ".ow" 32.821316614420063;
+	setAttr ".ow" 15.999071291393584;
 	setAttr ".imn" -type "string" "side";
 	setAttr ".den" -type "string" "side_depth";
 	setAttr ".man" -type "string" "side_mask";
